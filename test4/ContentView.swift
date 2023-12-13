@@ -9,10 +9,12 @@ import SwiftUI
 import SwiftData
 
 struct ContentView: View {
+    
     @Environment(\.modelContext) private var modelContext
     @Query private var items: [Item]
 
     var body: some View {
+        Text("DevOps test")
         NavigationSplitView {
             List {
                 ForEach(items) { item in
