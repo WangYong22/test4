@@ -14,7 +14,7 @@ struct ContentView: View {
     @Query private var items: [Item]
 
     var body: some View {
-        Text("WangYong DevOps test")
+        Text("WangYong DevOps test 2")
         NavigationSplitView {
             List {
                 ForEach(items) { item in
